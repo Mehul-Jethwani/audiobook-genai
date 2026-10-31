@@ -1,0 +1,167 @@
+[
+ {
+  "kind": "narration",
+  "text": "The storm had been circling the island since noon, and by evening the lighthouse shook with every wave.",
+  "speaker": "narrator",
+  "gender": "none",
+  "emotion": "tension",
+  "intensity": "medium",
+  "pace": "medium",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"We should have left yesterday,\"",
+  "speaker": "MARTA",
+  "gender": "female",
+  "emotion": "tension",
+  "intensity": "medium",
+  "pace": "slow",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "narration",
+  "text": "Marta whispered, pulling the blanket tight around her shoulders. Old Gregor did not answer. He stood at the window with his back to her, watching the lamp sweep across black water.",
+  "speaker": "narrator",
+  "gender": "none",
+  "emotion": "tension",
+  "intensity": "low",
+  "pace": "medium",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"The boat is gone, Marta,\" he said at last, very quietly.",
+  "speaker": "GREGOR",
+  "gender": "male",
+  "emotion": "grief",
+  "intensity": "medium",
+  "pace": "slow",
+  "tone_shift": true,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"The rope gave way an hour ago. I did not want to frighten you.\"",
+  "speaker": "GREGOR",
+  "gender": "male",
+  "emotion": "grief",
+  "intensity": "medium",
+  "pace": "slow",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "narration",
+  "text": "She stared at him. For a long moment the only sound was the wind clawing at the glass.",
+  "speaker": "narrator",
+  "gender": "none",
+  "emotion": "tension",
+  "intensity": "medium",
+  "pace": "slow",
+  "tone_shift": true,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"Gone?\" she said.",
+  "speaker": "MARTA",
+  "gender": "female",
+  "emotion": "tension",
+  "intensity": "high",
+  "pace": "medium",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"Then how will we send word to the mainland?\"",
+  "speaker": "MARTA",
+  "gender": "female",
+  "emotion": "urgency",
+  "intensity": "medium",
+  "pace": "fast",
+  "tone_shift": true,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"The radio still works,\"",
+  "speaker": "PAVEL",
+  "gender": "male",
+  "emotion": "joy",
+  "intensity": "high",
+  "pace": "fast",
+  "tone_shift": true,
+  "fallback": false
+ },
+ {
+  "kind": "narration",
+  "text": "said young Pavel, bursting through the door with rain streaming from his coat.",
+  "speaker": "narrator",
+  "gender": "none",
+  "emotion": "joy",
+  "intensity": "medium",
+  "pace": "fast",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"I fixed it! Listen, they can hear us! They are sending a ship at dawn!\"",
+  "speaker": "PAVEL",
+  "gender": "male",
+  "emotion": "joy",
+  "intensity": "high",
+  "pace": "fast",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "narration",
+  "text": "Marta laughed, and then she was crying, and then laughing again, and Gregor, who had not smiled in a year, put his heavy hand on the boy's shoulder.",
+  "speaker": "narrator",
+  "gender": "none",
+  "emotion": "warmth",
+  "intensity": "medium",
+  "pace": "medium",
+  "tone_shift": true,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"Good lad,\" he murmured.",
+  "speaker": "GREGOR",
+  "gender": "male",
+  "emotion": "warmth",
+  "intensity": "low",
+  "pace": "slow",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "dialogue",
+  "text": "\"Good lad.\"",
+  "speaker": "GREGOR",
+  "gender": "male",
+  "emotion": "warmth",
+  "intensity": "low",
+  "pace": "slow",
+  "tone_shift": false,
+  "fallback": false
+ },
+ {
+  "kind": "narration",
+  "text": "Outside, the storm roared on, but inside the little room it was suddenly warm. Somewhere far below, the sea kept its own counsel, patient and enormous, as though it had all the time in the world.",
+  "speaker": "narrator",
+  "gender": "none",
+  "emotion": "reflection",
+  "intensity": "medium",
+  "pace": "slow",
+  "tone_shift": true,
+  "fallback": false
+ }
+]

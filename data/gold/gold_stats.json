@@ -1,0 +1,11 @@
+{
+  "n": 250,
+  "teacher_agreement_pct": {
+    "speaker": 90.0,
+    "gender": 94.0,
+    "emotion": 100.0,
+    "intensity": 100.0,
+    "pace": 100.0,
+    "all_fields": 89.6
+  }
+}

@@ -1,0 +1,10 @@
+pymupdf
+edge-tts>=7.3.1
+pydub
+matplotlib
+python-dotenv
+groq
+cerebras-cloud-sdk
+google-genai
+gender-guesser
+gradio

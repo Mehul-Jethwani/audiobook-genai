@@ -1,0 +1,233 @@
+{
+  "n": 250,
+  "human_verified_fields": [
+    "speaker",
+    "gender"
+  ],
+  "systems": {
+    "majority baseline": {
+      "valid_json": 100.0,
+      "emotion": {
+        "acc": 26.8,
+        "macro_f1": 0.047
+      },
+      "intensity": {
+        "acc": 59.2,
+        "macro_f1": 0.248
+      },
+      "pace": {
+        "acc": 73.6,
+        "macro_f1": 0.283
+      },
+      "speaker": {
+        "acc": 25.6
+      },
+      "gender": {
+        "acc": 65.6,
+        "macro_f1": 0.198
+      }
+    },
+    "LLM teacher": {
+      "valid_json": 100.0,
+      "emotion": {
+        "acc": 100.0,
+        "macro_f1": 1.0
+      },
+      "intensity": {
+        "acc": 100.0,
+        "macro_f1": 1.0
+      },
+      "pace": {
+        "acc": 100.0,
+        "macro_f1": 1.0
+      },
+      "speaker": {
+        "acc": 80.0
+      },
+      "gender": {
+        "acc": 88.0,
+        "macro_f1": 0.722
+      }
+    },
+    "base model, zero-shot": {
+      "valid_json": 76.0,
+      "emotion": {
+        "acc": 22.8,
+        "macro_f1": 0.222
+      },
+      "intensity": {
+        "acc": 19.2,
+        "macro_f1": 0.194
+      },
+      "pace": {
+        "acc": 17.2,
+        "macro_f1": 0.177
+      },
+      "speaker": {
+        "acc": 15.2
+      },
+      "gender": {
+        "acc": 59.2,
+        "macro_f1": 0.32
+      }
+    },
+    "fine-tuned (ours)": {
+      "valid_json": 100.0,
+      "emotion": {
+        "acc": 62.8,
+        "macro_f1": 0.613
+      },
+      "intensity": {
+        "acc": 74.8,
+        "macro_f1": 0.686
+      },
+      "pace": {
+        "acc": 76.0,
+        "macro_f1": 0.642
+      },
+      "speaker": {
+        "acc": 44.8
+      },
+      "gender": {
+        "acc": 65.6,
+        "macro_f1": 0.469
+      }
+    }
+  },
+  "seconds_per_unit": 0.4368,
+  "emotion_confusion": {
+    "columns": [
+      "joy",
+      "warmth",
+      "grief",
+      "tension",
+      "anger",
+      "wonder",
+      "reflection",
+      "urgency",
+      "neutral",
+      "<invalid>"
+    ],
+    "rows": [
+      "joy",
+      "warmth",
+      "grief",
+      "tension",
+      "anger",
+      "wonder",
+      "reflection",
+      "urgency",
+      "neutral"
+    ],
+    "matrix": [
+      [
+        10,
+        1,
+        0,
+        1,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        3,
+        23,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        4,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        25,
+        1,
+        4,
+        6,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        4,
+        0,
+        19,
+        3,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        17,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        1,
+        3,
+        0,
+        3,
+        5,
+        3,
+        49,
+        0
+      ]
+    ]
+  }
+}

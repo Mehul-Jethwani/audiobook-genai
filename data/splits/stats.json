@@ -1,0 +1,136 @@
+{
+  "train": {
+    "n": 4800,
+    "kind": {
+      "narration": 1643,
+      "dialogue": 3157
+    },
+    "emotion": {
+      "neutral": 22.5,
+      "tension": 20.4,
+      "wonder": 14.4,
+      "warmth": 10.7,
+      "reflection": 9.1,
+      "joy": 7.2,
+      "anger": 5.6,
+      "grief": 5.1,
+      "urgency": 5.0
+    },
+    "intensity": {
+      "low": 52.4,
+      "medium": 37.4,
+      "high": 10.2
+    },
+    "pace": {
+      "medium": 67.9,
+      "slow": 19.6,
+      "fast": 12.5
+    },
+    "gender": {
+      "none": 42.2,
+      "male": 31.0,
+      "female": 22.3,
+      "unknown": 4.5
+    },
+    "narrator_pct": 42.2,
+    "distinct_speakers": 233,
+    "books": [
+      "alice",
+      "anne_green_gables",
+      "dracula",
+      "frankenstein",
+      "great_expectations",
+      "jane_eyre",
+      "jungle_book",
+      "looking_glass",
+      "peter_pan",
+      "pride_prejudice",
+      "secret_garden",
+      "sherlock_adventures",
+      "tom_sawyer",
+      "treasure_island",
+      "wizard_of_oz",
+      "wuthering_heights"
+    ]
+  },
+  "val": {
+    "n": 300,
+    "kind": {
+      "narration": 125,
+      "dialogue": 175
+    },
+    "emotion": {
+      "neutral": 21.7,
+      "tension": 21.3,
+      "wonder": 19.7,
+      "reflection": 8.7,
+      "joy": 7.7,
+      "urgency": 7.3,
+      "grief": 6.3,
+      "warmth": 4.7,
+      "anger": 2.7
+    },
+    "intensity": {
+      "low": 50.0,
+      "medium": 35.0,
+      "high": 15.0
+    },
+    "pace": {
+      "medium": 63.7,
+      "slow": 21.0,
+      "fast": 15.3
+    },
+    "gender": {
+      "none": 42.7,
+      "male": 41.0,
+      "unknown": 15.7,
+      "female": 0.7
+    },
+    "narrator_pct": 42.7,
+    "distinct_speakers": 11,
+    "books": [
+      "christmas_carol"
+    ]
+  },
+  "test": {
+    "n": 900,
+    "kind": {
+      "dialogue": 572,
+      "narration": 328
+    },
+    "emotion": {
+      "neutral": 26.9,
+      "tension": 18.8,
+      "wonder": 14.3,
+      "warmth": 11.9,
+      "reflection": 10.6,
+      "joy": 7.6,
+      "grief": 4.6,
+      "urgency": 3.0,
+      "anger": 2.4
+    },
+    "intensity": {
+      "low": 60.3,
+      "medium": 34.9,
+      "high": 4.8
+    },
+    "pace": {
+      "medium": 76.3,
+      "slow": 17.4,
+      "fast": 6.2
+    },
+    "gender": {
+      "none": 45.3,
+      "male": 36.3,
+      "female": 14.7,
+      "unknown": 3.7
+    },
+    "narrator_pct": 45.3,
+    "distinct_speakers": 48,
+    "books": [
+      "huck_finn",
+      "hound_baskervilles",
+      "little_women"
+    ]
+  }
+}
